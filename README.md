@@ -1,10 +1,9 @@
 # 🐙 Git Learning Project
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat)]()
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)]()
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)]()
-[![License](https://img.shields.io/github/license/arushinofu/git-learning)](LICENSE)
-[![License](https://img.shields.io/github/license/arushinofu/git-learning)](LICENSE.DESIGN)
 [![Status](https://img.shields.io/badge/Status-Учебный-2a9d8f)]()
 
 ---
@@ -69,14 +68,10 @@ git-learning/
 
 ---
 
-## 📜 Лицензия
+## 📄 Лицензия
 
-| Компонент | Лицензия |
-| :--- | :--- |
-| Код (HTML/JS) | [MIT](LICENSE) |
-| Дизайн и контент | [CC BY-NC-SA 4.0](LICENSE.DESIGN) |
-
-© 2026 arushinofu. Все права защищены.
+Распространяется под лицензией MIT.
+См. файл [LICENSE](https://github.com/arushinofu/git-learning/blob/main/LICENSE) для подробностей.
 
 ---
 
