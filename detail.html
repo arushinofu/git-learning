@@ -1,11 +1,178 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Page 2 Title</title>
-	        <link rel="stylesheet" href="/css/style.css> 
-	</head>
-	<body>
-		<h1>This is a Heading of page 2</h1>
-		<p>This is a paragraph.</p>
-	</body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О курсе Git и GitHub - детальная информация">
+    <title>arushinofu | О курсе</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/avatar.png" type="image/png">
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <div class="scanlines"></div>
+
+    <div class="container">
+        <header class="header">
+            <div class="avatar-wrapper">
+                <img src="assets/images/avatar.png" alt="arushinofu" class="avatar">
+            </div>
+
+            <h1 class="system-title glitch" data-text="SYSTEM UPDATING...">SYSTEM UPDATING...</h1>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">ГЛАВНАЯ</a>
+                <a href="detail.html" class="nav-link active">О КУРСЕ</a>
+                <a href="https://github.com/arushinofu/git-learning" class="nav-link" target="_blank">GITHUB</a>
+            </nav>
+
+            <div class="status-box">
+                <span id="typing-text" class="status-text"></span>
+                <span class="cursor-box"></span>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="course-info">
+                <h2 class="section-title">📖 ИНФОРМАЦИЯ О КУРСЕ</h2>
+                <div class="content-box">
+                    <div class="info-row">
+                        <span class="info-label">> ПЛАТФОРМА:</span>
+                        <span class="info-value highlight">STEPIK</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">> НАЗВАНИЕ:</span>
+                        <span class="info-value">Основы Git и GitHub</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">> ССЫЛКА:</span>
+                        <span class="info-value">
+                            <a href="https://stepik.org/course/252829" target="_blank">stepik.org/course/252829</a>
+                        </span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">> СТАТУС:</span>
+                        <span class="info-value highlight">✅ ПРОЙДЕН</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">> СЕРТИФИКАТ:</span>
+                        <span class="info-value">
+                            <a href="https://stepik.org/cert/3161888" target="_blank">#3161888</a>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="modules">
+                <h2 class="section-title">📚 ПРОГРАММА КУРСА</h2>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-badge">МОДУЛЬ 2</span>
+                        <span class="module-title">ОСНОВЫ GIT</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>Обзор систем контроля версий (VCS)</li>
+                        <li>Установка и настройка Git</li>
+                        <li>Первый репозиторий (git init)</li>
+                        <li>Первый коммит (git add, git commit)</li>
+                        <li>Индекс и staging area</li>
+                        <li>Откат изменений (git reset, git revert)</li>
+                        <li>Удаление и переименование файлов</li>
+                        <li>Просмотр изменений (git diff, git log)</li>
+                        <li>Игнорирование файлов (.gitignore)</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-badge">МОДУЛЬ 3</span>
+                        <span class="module-title">РАБОТА С GITHUB</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>Создание удалённого репозитория</li>
+                        <li>Клонирование репозитория (git clone)</li>
+                        <li>SSH аутентификация</li>
+                        <li>Fork чужих репозиториев</li>
+                        <li>GitHub Copilot</li>
+                        <li>Альтернативы GitHub (GitLab, Bitbucket)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="commands">
+                <h2 class="section-title">🔧 КЛЮЧЕВЫЕ КОМАНДЫ</h2>
+                <div class="commands-grid">
+					<div class="command-card">
+                        <code>git config</code>
+                        <p>Настройки параметров git</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git init</code>
+                        <p>Создание репозитория</p>
+                    </div>
+					 <div class="command-card">
+                        <code>git status</code>
+                        <p>Просмотр текущего состояния</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git add .</code>
+                        <p>Добавление файлов в индекс</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git commit -m</code>
+                        <p>Создание коммита</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git push</code>
+                        <p>Отправка на сервер</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git pull</code>
+                        <p>Получение изменений</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git branch</code>
+                        <p>Работа с ветками</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git log</code>
+                        <p>Просмот истории изменения</p>
+                    </div>
+                    <div class="command-card">
+                        <code>git restore</code>
+                        <p>Отменить изменения/коммиты</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="author">
+                <h2 class="section-title">👨‍🏫 СОЗДАТЕЛЬ КУРСА</h2>
+                <div class="content-box">
+                    <p>> Курс создан преподавателем Pragmatic Programmer на платформе Stepik</p>
+                    <br>
+                    <a href="https://stepik.org/users/612208117/teach" class="pixel-btn" target="_blank">
+                        [ ПРОФИЛЬ ПРЕПОДАВАТЕЛЯ ]
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 GIT LEARNING PROJECT</p>
+            <p>КУРС: <a href="https://stepik.org/course/252829" target="_blank">STEPIK.ORG/COURSE/252829</a></p>
+            <p>ПРЕПОДАВАТЕЛЬ: <a href="https://stepik.org/users/612208117/teach" target="_blank">Pragmatic Programmer</a></p>
+        </footer>
+    </div>
+
+    <div class="modal" id="cert-modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modal-close">×</span>
+            <img src="" alt="Сертификат" class="modal-image" id="modal-image">
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
