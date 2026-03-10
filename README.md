@@ -39,9 +39,9 @@ git-learning/
 ├── LICENSE.md                    # Лицензия
 ├── assets/                       # Необходимое для отображения
 │   ├── css/                      # Папка со стилями
-│       ├──style.css              # Cтили
+│   │   ├──style.css              # Cтили
 │   ├── js/                       # Папка со js
-│       ├──main.js                # Скрипты
+│   │   ├──main.js                # Скрипты
 │   ├── images/                   # Папка с картинками
 │       ├──avatar.png             # Аватарка
 │       ├──certificate_ru.png     # Сертификат на русском
