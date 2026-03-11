@@ -1,6 +1,6 @@
 # Основное приложение
 def greet():
-    print("Hello, World!")
+    print("Hello, Git Master!")
 
 if __name__ == "__main__":
     greet()
