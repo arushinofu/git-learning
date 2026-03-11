@@ -61,6 +61,7 @@ git-learning/
 │   ├──README.md                  # Подробнее о зоне
 │   ├──education-log.md           # Словесное описание и демонстрация практики
 ```
+
 ---
 
 ## Лицензия
@@ -80,7 +81,6 @@ git-learning/
 | Arshinov Maxim | [@arushinofu](https://github.com/arushinofu)|
 
 > Другие учебные проекты: <https://github.com/topics/arh-education>
-
 
 ---
 
