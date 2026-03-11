@@ -79,6 +79,9 @@ git-learning/
 |:-:|:-:|
 | Arshinov Maxim | [@arushinofu](https://github.com/arushinofu)|
 
+> Другие учебные проекты: <https://github.com/topics/arh-education>
+
+
 ---
 
 <p align="center">
