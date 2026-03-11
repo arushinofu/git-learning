@@ -1,6 +1,6 @@
 # Основное приложение
 def greet():
-    print("Hello from Branch A!")
+    print("Hello, from Branch A and B!")
 
 if __name__ == "__main__":
     greet()
