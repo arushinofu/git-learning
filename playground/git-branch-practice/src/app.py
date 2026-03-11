@@ -4,3 +4,6 @@ def greet():
 
 if __name__ == "__main__":
     greet()
+
+def login(username):
+    print(f"User {username} logged in")
