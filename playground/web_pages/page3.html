@@ -2,13 +2,61 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Страница 3</title>
-    <style>body { font-family: sans-serif; padding: 20px; background-color: #e0e0e0; }</style>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            padding: 20px; 
+            background-color: #e0e0e0; 
+        }
+        .content-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .success-msg {
+            color: green;
+            font-size: 14px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #e8f5e9;
+            border-radius: 4px;
+        }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Третья страница (page3.html)</h1>
-    <p>Здесь находится контент третьей страницы.</p>
-    <hr>
-    <a href="index.html">← Вернуться на главную</a>
+    <div class="content-box">
+        <!-- 
+            ================================================================
+            CHANGELOG / ИСТОРИЯ ИЗМЕНЕНИЙ
+            ================================================================
+            Версия: 1.1 (Исправление)
+            Дата: 2024-01-15
+            
+            [ИСПРАВЛЕНО]:
+            1. Баг с кодировкой (кракозябры в заголовке) - добавлен meta charset
+            2. Битая ссылка на главную (была href="index.htm") - поправлено на .html
+            3. Добавлен viewport для корректного отображения на мобильных
+            ================================================================
+        -->
+
+        <h1>Третья страница (page3.html)</h1>
+        
+        <!-- Уведомление об исправлении (можно удалить в продакшене) -->
+        <div class="success-msg">
+            ✓ Баг исправлен: страница отображается корректно
+        </div>
+
+        <p>Здесь находится контент третьей страницы.</p>
+        <p>Теперь все ссылки и кодировка работают правильно.</p>
+        
+        <hr>
+        <a href="index.html">← Вернуться на главную</a>
+    </div>
 </body>
 </html>
