@@ -78,7 +78,7 @@ git-learning/
 
 | Автор | Никнейм |
 |:-:|:-:|
-| Arshinov Maxim | [@arushinofu](https://github.com/arushinofu)|
+| Arshinov Maxim | [@arshinov-dev](https://github.com/arshinov-dev)|
 
 > Другие учебные проекты: <https://github.com/topics/arh-education>
 
@@ -88,7 +88,7 @@ git-learning/
   <img src="https://github.com/arushinofu/git-learning/blob/main/assets/images/avatar.png" alt="Логотип" width="85">
 </p>
 
-<p align="center">© arushinofu 2026</p>
+<p align="center">© arshinov.dev 2026</p>
 
 <div align="center">
 
