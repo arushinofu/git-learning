@@ -22,7 +22,7 @@
 
 ### Результаты обучения 
 
-Сертификаты, пройденные темы и полученные навыки опубликованы на [GitHub Pages](https://arushinofu.github.io/git-learning/).
+Сертификаты, пройденные темы и полученные навыки опубликованы на [GitHub Pages](https://arshinov-dev.github.io/git-learning/).
 
 ### История развития 
 
@@ -88,7 +88,7 @@ git-learning/
   <img src="https://github.com/arushinofu/git-learning/blob/main/assets/images/avatar.png" alt="Логотип" width="85">
 </p>
 
-<p align="center">© arshinov.dev 2026</p>
+<p align="center">© arshinov.su 2026</p>
 
 <div align="center">
 
